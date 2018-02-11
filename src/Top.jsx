@@ -2,20 +2,15 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 
 import Header from './Header'
+import Cta from './Cta'
 
 class Top extends Component {
 	render() {
 		return (
 			<TopWrapper>
 				<Header />
-				<div className="cta cta1">
-					<p className="price">$1.99</p>
-					<p>Tacos</p>
-				</div>
-				<div className="cta cta2">
-					<p className="price">$3.99</p>
-					<p>Kombucha</p>
-				</div>
+				<Cta price='$1.99' name='Tacos'/>
+				<Cta price='$3.99' name='Kombucha'/>
 			</TopWrapper>
 		)
 	}
