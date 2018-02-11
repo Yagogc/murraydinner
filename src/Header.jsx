@@ -38,7 +38,7 @@ const HeaderWrapper = styled.header`
 		display: block;
 		background: white url('https://www.fillmurray.com/g/820/540');
 		background-size: cover;
-		background-position: bottom right;
+		background-position: top left;
 		width: 100%;
 		height: 100%;
 		
