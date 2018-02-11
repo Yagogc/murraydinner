@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import Top from './Top'
 import Features from './Features';
 import About from './About';
+import Gallery from './Gallery';
 class App extends Component {
   render() {
     return (
@@ -14,6 +15,7 @@ class App extends Component {
 
 			<About />
 
+			<Gallery />
 		</Wrapper>
     );
   }

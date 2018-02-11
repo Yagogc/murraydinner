@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import Feature from './Feature';
 
-
-
 class Features extends Component {
 	render() {
 		return (

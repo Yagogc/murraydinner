@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 
-
 class Cta extends Component {
 	render() {
 		return (

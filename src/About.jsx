@@ -3,9 +3,6 @@ import styled from 'styled-components';
 
 import Taco from './queso-taco.png'
 
-import Header from './Header'
-import Cta from './Cta'
-
 class About extends Component {
 	render() {
 		return (

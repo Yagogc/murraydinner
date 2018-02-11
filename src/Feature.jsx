@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 
-
-
 class Feature extends Component {
 	render() {
 		return (
