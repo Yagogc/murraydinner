@@ -15,9 +15,7 @@ registerServiceWorker();
 injectGlobal`
 	html {
 		box-sizing: border-box;
-		/* A system font stack so things load nice and quick! */
-		font-family: Roboto, Helvetica,
-		  Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+		font-family: Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 		font-weight: 900;
 		font-size: 13px;
 		color: black;
