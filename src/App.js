@@ -5,20 +5,23 @@ import Top from './Top'
 import Features from './Features';
 import About from './About';
 import Gallery from './Gallery';
+import Menu from './Menu';
 class App extends Component {
-  render() {
-    return (
-		<Wrapper>
-			<Top/>
+	render() {
+		return (
+			<Wrapper>
+				<Top/>
 
-			<Features />
+				<Menu />
+				
+				<Features />
 
-			<About />
+				<About />
 
-			<Gallery />
-		</Wrapper>
-    );
-  }
+				<Gallery />
+			</Wrapper>
+		);
+	}
 }
 
 export default App;
