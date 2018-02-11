@@ -3,15 +3,16 @@ import styled from 'styled-components';
 
 import Top from './Top'
 import Features from './Features';
+import About from './About';
 class App extends Component {
   render() {
     return (
 		<Wrapper>
 			<Top/>
 
-
-
 			<Features />
+
+			<About />
 
 		</Wrapper>
     );
