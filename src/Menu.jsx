@@ -61,12 +61,14 @@ const MenuList = styled.ul`
 	padding: 0;
 	list-style: none;
 	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+	margin: 0;
 
 	@media (max-width: 1000px) {
 		max-height: 0;
 		overflow: hidden;
 		transform: rotateX(90deg);
 		transition: all 0.5s;
+		grid-template-columns: 1fr;
 	}
 `
 
@@ -93,8 +95,12 @@ const Button = styled.button`
 
 	@media (max-width: 1000px) {
 		display: block;
-		margin-bottom: 10px;
 		
+
+		&[aria-expanded="true"] {
+			margin-bottom: 10px;
+		}
+
 		&[aria-expanded="false"] .close {
 			display: none;
 		}

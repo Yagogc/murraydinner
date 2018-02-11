@@ -15,7 +15,7 @@ class Cta extends Component {
 export default Cta;
 
 const CtaWrapper = styled.div`
-	background: yellow;
+	background: #ffc600;
 	display: grid;
 	align-items: center;
 	justify-items: center;

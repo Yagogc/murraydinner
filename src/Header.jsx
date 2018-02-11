@@ -15,7 +15,6 @@ class Header extends Component {
 export default Header;
 
 const HeaderWrapper = styled.header`
-	grid-area: span 2 / span 2;
 	overflow: hidden;
 	min-height: 400px;
 	position: relative;
@@ -24,7 +23,11 @@ const HeaderWrapper = styled.header`
 	flex-direction: column;
 	align-items: start;
 	justify-content: center;
-
+	
+	@media (min-width: 500px) {
+		grid-area: span 2 / span 2;
+	}
+	
 	&:before {
 		content: "";
 		position: absolute;
@@ -47,7 +50,7 @@ const HeaderWrapper = styled.header`
 	}
 
 	& > * {
-		background: yellow;
+		background: #ffc600;
 		padding: 5px;
 	}
 `

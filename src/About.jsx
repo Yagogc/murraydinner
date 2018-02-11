@@ -7,7 +7,7 @@ class About extends Component {
 	render() {
 		return (
 			<AboutWrapper>
-				<img src={Taco} alt="Yummy Taco"/>
+				<Img src={Taco} alt="Yummy Taco"/>
 				<div className="about__details">
 					<h2>Featured Taco</h2>
 					<p>Slim Profile, easy to hold and loaded with cheese.</p>
@@ -27,9 +27,17 @@ const AboutWrapper = styled.div`
 	display: grid;
 	grid-template-columns: 400px 1fr;
 	align-items: center;
+
+	@media (max-width: 700px) {
+		grid-template-columns: 1fr;
+	}
 `
 const Button = styled.button`
 	background: #ffc600;
 	border: 0;
 	padding: 10px 20px;
+`
+
+const Img = styled.img`
+	width: 100%;
 `
